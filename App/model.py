@@ -149,6 +149,7 @@ def getBooksByAuthor(catalog, authorname):
         author = lt.getElement(catalog['authors'], posauthor)
         return author
     return None
+    
 
 
 def getBestBooks(catalog, number):
